@@ -21,6 +21,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
+  
 }
 
 header h1 {
@@ -32,6 +33,7 @@ header h1 {
   max-width: 500px;
   margin: 30px auto;
   padding: 20px;
+  border: 2px solid grey;
 }
 
 .edit-mode {

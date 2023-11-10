@@ -1,8 +1,29 @@
-add item to list via form
-Remove items list by clicking the "X" button
-Clear all items with "clear" button
-filter the items by typing in the filter field
-add localStorage to persist items
-Click on an item to put into "edit mode" and add to form
-Update item
-Deploy To Netlify
+// add item to list via form
+// Remove items list by clicking the "X" button
+// Clear all items with "clear" button
+// filter the items by typing in the filter field
+// add localStorage to persist items
+// Click on an item to put into "edit mode" and add to form
+// Update item
+// Deploy To Netlify
+
+// WHAT IS localStorage / SESSION localStorage
+// 1.Property on the 'Window interface that allows us to access a Storage object
+// 2.DAta is storaged in the browser
+// 3.Data is stored as key/value pairs and values are string (Can not store objects)
+
+// LocalStorage and Session Have the same API. the difference is that localStorage does not expire, while sesssionStorage only lasts until the page is closed
+
+// LOCALSTORAGE METHODS
+
+// localStorage.setitem('name', 'Brad');
+// //set a value with a key
+
+// localStorage.getitem('name');
+// //get a value using the key
+
+// localSTorage.removeitem('name');
+// //Remove item Using the key
+
+// localStorage.clear();
+// //clear all values
